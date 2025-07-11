@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Home - Photographer Portfolio</title>
+  </head>
+  <body>
+    <!-- Header / Navber -->
+    <header>
+      <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">Takepic</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-items">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-items">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-items">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-items">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section " id="home">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Best Clicker</h2>
+            <h3 class="subtitle">Make beautiful memories</h3>
+            <p class="description">
+              I’m John Doe, a passionate photographer capturing moments that tell
+              stories. Explore my work and see the world through my lens.
+            </p>
+            <div class="buttons">
+              <a href="" class="button book-now">Book now</a>
+              <a href="" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="images/gallery/camera.png" alt="Hero" class="hero-image">
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="images/gallery/photography-1.jpg" alt="About" class="about-image">
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Me</h2>
+            <p class="text">
+              I’m a professional photographer with over 10 years of experience in capturing the beauty of life. My passion is to create stunning images that evoke emotions and tell stories.
+            </p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery section -->
+      <section class="gallery-section" id="gallery">
+        <div class="section-content">
+          <h2 class="section-title">Gallery</h2>
+          <ul class="gallery-grid">
+            <li><img src="images/gallery/photography-1.jpg" alt="Gallery Image 1" class="gallery-image"></li>
+            <li><img src="images/gallery/photography-1.jpg" alt="Gallery Image 2" class="gallery-image"></li>
+            <li><img src="images/gallery/photography-1.jpg" alt="Gallery Image 3" class="gallery-image"></li>
+            <li><img src="images/gallery/photography-1.jpg" alt="Gallery Image 4" class="gallery-image"></li>
+            <li><img src="images/gallery/photography-1.jpg" alt="Gallery Image 5" class="gallery-image"></li>
+            <li><img src="images/gallery/photography-1.jpg" alt="Gallery Image 6" class="gallery-image"></li>
+          </ul>          
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>123 Campsite Avenue, Wilderness</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>+1 (555) 123-4567</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-envelope"></i>
+              <p>info@campground.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.campground.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-clock"></i>
+              <p>Mon - Fri: 9:00 AM – 6:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-map"></i>
+              <p>View on Map</p>
+            </li>
+          </ul>
+          
+          <form action="#" class="contact-form">
+            <input type="text" placeholder="Your name" class="form-input" required>
+            <input type="email" placeholder="Your email" class="form-input" required>
+            <textarea placeholder="Your meassage" class ="form-input" required></textarea>
+            <button class="submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer section -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2024 Photoshop</p>
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <p class="policy-text">
+            <a href="#" class="policy-link">Pricvacy policy</a>
+            <span class="sepration">*</span>
+            <a href="#" class="policy-link">Refund policy</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>
