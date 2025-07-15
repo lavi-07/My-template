@@ -477,6 +477,10 @@ header .navbar {
     margin-right:0 ;
   }
 
+  .gallery-section {
+    padding: 0;
+  } 
+
   .gallery-section .gallery-grid .gallery-image{
     height: 200px;
     width: auto;
@@ -507,7 +511,7 @@ header .navbar {
   }
 
   .gallery-section .gallery-grid .gallery-image{
-    height: 100px;
+    height: 150px;
     width: auto;
   }
 }
